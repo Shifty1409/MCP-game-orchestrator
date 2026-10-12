@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "description": "MCP 配置文件白名单。扫描脚本只读取以下路径，不遍历全盘，不联网。",
+  "paths": [
+    {
+      "tool": "Cursor",
+      "path": "~/.cursor/mcp.json",
+      "description": "Cursor 编辑器的 MCP 配置"
+    },
+    {
+      "tool": "Claude Code",
+      "path": "~/.claude/config.json",
+      "description": "Claude Code 全局配置"
+    },
+    {
+      "tool": "Claude Code (CLI)",
+      "path": "~/.config/claude-code/mcp.json",
+      "description": "Claude Code CLI 的 MCP 配置"
+    },
+    {
+      "tool": "VS Code",
+      "path": "~/.vscode/mcp.json",
+      "description": "VS Code 工作区 / 用户级 MCP 配置"
+    },
+    {
+      "tool": "Windsurf",
+      "path": "~/.codeium/windsurf/mcp_config.json",
+      "description": "Windsurf 编辑器的 MCP 配置"
+    },
+    {
+      "tool": "Claude Desktop (Windows)",
+      "path": "%APPDATA%/Claude/claude_desktop_config.json",
+      "description": "Claude Desktop 桌面端 (Windows)"
+    },
+    {
+      "tool": "Claude Desktop (macOS)",
+      "path": "~/Library/Application Support/Claude/claude_desktop_config.json",
+      "description": "Claude Desktop 桌面端 (macOS)"
+    },
+    {
+      "tool": "Claude Desktop (Linux)",
+      "path": "~/.config/Claude/claude_desktop_config.json",
+      "description": "Claude Desktop 桌面端 (Linux)"
+    }
+  ]
+}

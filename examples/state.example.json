@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "description": "MCP 编排器状态文件示例。实际文件位于 ~/.mcp-orchestrator/state.json",
+  "connected_services": [
+    {
+      "name": "filesystem",
+      "source": "~/.cursor/mcp.json",
+      "last_connected": "2026-10-12"
+    },
+    {
+      "name": "github",
+      "source": "~/.claude/config.json",
+      "last_connected": "2026-10-12"
+    }
+  ]
+}
