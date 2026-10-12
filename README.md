@@ -86,6 +86,7 @@ python3 scripts/scan_config.py
 
 ## 工作流程
 
+```mermaid
 flowchart TD
     A["开始"] --> B["步骤一：发现"]
     B --> B1["方式A：手动输入软件名"]
@@ -107,6 +108,7 @@ flowchart TD
     L -->|补充| K
     L -->|confirm| M["步骤四：分步开发"]
     M --> N["结构确认 -> 逐文件写入 -> 构建"]
+```
 
 ---
 
